@@ -1,0 +1,22 @@
+{
+  "name": "sass_portfolio",
+  "version": "1.0.0",
+  "description": "portfolio website with sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmalmx/sass_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danmalmx/sass_portfolio/issues"
+  },
+  "homepage": "https://github.com/danmalmx/sass_portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
